@@ -1,98 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smart Study Framework</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        .button-container {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .whatsapp-button {
-            background-color: #25D366;
-            color: white;
-            padding: 15px 30px;
-            font-size: 18px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .whatsapp-button:hover {
-            background-color: #1EBE55;
-        }
-        @media (max-width: 768px) {
-            .whatsapp-button {
-                font-size: 16px;
-                padding: 12px 20px;
+    <link rel="icon" href="https://effortlessstudy.com/spm.ico">
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript"> $(function () { $(this).bind("contextmenu", function (e) { e.preventDefault(); }); }); </script>
+    <script>
+        document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 85 )) {
+                return false;
             }
+        };
+    </script>
+
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a.button:link, a.button:visited {
+        display: inline-block;
+        background-color: #25D366;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    #back-to-top {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        font-size: 18px;
+        background-color: #1b74e4;
+        color: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        border-radius: 4px;
+    }
+    #back-to-top:hover {
+        background-color: #555;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 30px 20px 0;
+            width: auto;
         }
+    }
     </style>
+
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '354458495335117');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=354458495335117&ev=PageView&noscript=1"
+    /></noscript>
 </head>
-<body>
 
-    <div class="container">
-        <h1>Smart Study Framework</h1>
-        <h2>শিক্ষার্থীদের জন্য পড়াশোনাকে সহজ ও মজার করে তোলার এক অনন্য পদ্ধতি!</h2>
-        <p>
-            আমরা তৈরি করেছি <strong>Smart Study Framework</strong>—এটা এমন এক পদ্ধতি, যার দুটো প্রধান লক্ষ্য:
-        </p>
-        <ul>
-            <li><strong>"পড়াটা বুঝতে পারছি না, পড়তে ভালো লাগছে না"</strong>—ছাত্রছাত্রীদের এই বিরক্তি ও হতাশাকে বদলে দেওয়া <strong>"আমি পারছি, পড়তে আমার খুব মজা লাগছে!"</strong>-তে। আমরা পড়াশোনাকে শিক্ষার্থীদের জন্য খেলার মতো আনন্দদায়ক করতে চাই।</li>
-            <li><strong>নিজে নিজে পড়াশোনা করতে শেখানো</strong>—এই পদ্ধতিতে ছাত্রছাত্রীরা টিউটর বা অন্য কারো সাহায্য ছাড়াই কীভাবে পড়াশোনার আনন্দ উপভোগ করতে পারে, তা আমরা দেখিয়ে দেবো।</li>
-        </ul>
-        <p>
-            যখন কেউ নিজে কিছু শিখে সুন্দরভাবে করতে পারে এবং এর জন্য প্রশংসা পায়, তার আগ্রহ আরো বাড়ে। সে আরও ভালো করতে চায়, আরও প্রশংসা পেতে চায়। আর এখানেই শুরু হয় সফলতার নেশা।
-        </p>
-        <p>
-            কিন্তু সফলতার পথে প্রধান বাধা হলো <strong>নলেজ গ্যাপ</strong> বা জ্ঞানের অভাব। এই নলেজ গ্যাপই পরে <strong>স্কিল গ্যাপে</strong> পরিণত হয়।
-        </p>
-        <p>
-            আমাদের লক্ষ্য হলো ছাত্রছাত্রীদেরকে শেখানো, কীভাবে নিজের <strong>নলেজ গ্যাপ</strong> সনাক্ত করবে এবং তা পূরণের সঠিক উপায় খুঁজে পাবে।
-        </p>
-        <p>
-            আমরা এই টেকনিকটি শেখাই আমাদের <strong>Smart Study Circle</strong> নামক WhatsApp গ্রুপের মাধ্যমে, যেখানে শিক্ষার্থীরা <strong>Effortless Study Blueprint</strong> ব্যবহার করে এই বিশেষ পদ্ধতি শিখতে পারে।
-        </p>
-        <h2>Smart Study Framework কীভাবে কাজ করে?</h2>
-        <p>
-            একটি বিশেষ পদ্ধতিতে <strong>আর্টিফিশিয়াল ইন্টেলিজেন্স (AI)</strong> ব্যবহার করে শিক্ষার্থীদের "বুঝতে না পারার" বিরক্তি দূর হয়ে যাবে, এবং তারা "আমি পারলাম!" এই আনন্দ অনুভব করবে। এতে করে লেখাপড়াটা তাদের কাছে খেলার মতো মজার হয়ে উঠবে।
-        </p>
-        <h2>কী দরকার হবে?</h2>
-        <p>
-            শিক্ষার্থীদের <strong>Smart Study Circle</strong> WhatsApp গ্রুপের সদস্য হতে হবে, একটি স্মার্টফোন ও ইন্টারনেট সংযোগ লাগবে এবং <strong>আর্টিফিশিয়াল ইন্টেলিজেন্স (AI)</strong>-এর ফ্রী অ্যাক্সেস থাকতে হবে।
-        </p>
-        <p>
-            প্রকল্পের শুরুতে আমরা <strong>বিনামূল্যে মাত্র ১০০ জন ছাত্রছাত্রীকে নিয়ে</strong> আমাদের এই সেবা শুরু করছি। যারা প্রথমে এই সুযোগ নিতে চান, তাদের এবং তাদের অভিভাবকদের অনুরোধ করা হচ্ছে <strong>WhatsApp-এ আমাদের সঙ্গে যোগাযোগ করতে</strong>।
-        </p>
-        <div class="button-container">
-            <a class="whatsapp-button" href="https://wa.me/918927242075" target="_blank">WhatsApp-এ যোগাযোগ করুন</a>
-        </div>
-    </div>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<div>
+    <h1 style="text-align:center; margin-bottom: 30px;">Smart Study Framework</h1>
+    <p style="margin-bottom: 10px;">আমরা একটি পদ্ধতি তৈরি করেছি, যার নাম হলো <strong>Smart Study Framework</strong>!</p>
+    <p>এর প্রধান লক্ষ্য দুটো:</p>
+    <ul>
+        <li>"পড়াটা আমি বুঝতে পারছি না - পড়তে আমার ভাল্লাগছে না" - ছাত্রছাত্রীদের এই বিরক্তিকে "আমি পারছি - পড়তে আমার খুব আনন্দ হচ্ছে!"-তে বদলে দেওয়া।</li>
+        <li>পড়াশোনাকে ছাত্রছাত্রীদের কাছে খেলার মতো সহজ ও আনন্দদায়ক করে তোলা। আর সেটা তারা নিজে নিজেই করবে, টিউটর বা অন্য কারও সাহায্য ছাড়াই, এবং কীভাবে পড়াশোনা উপভোগ করতে পারে তা শিখিয়ে দেওয়া।</li>
+    </ul>
+    
+    <h2 style="text-align:center; margin-bottom: 20px;">কীভাবে কাজ করে?</h2>
+    <p>আমাদের <strong>Smart Study Circle</strong> WhatsApp গ্রুপের মাধ্যমে আমরা <strong>Effortless Study Blueprint</strong> শেখাই। এখানে <strong>AI</strong>-র সাহায্যে "বুঝতে না পারার" বিরক্তি "আমি পারলাম!"-এ বদলে যায়।</p>
+    <p>এই টেকনিক ব্যবহার করে শিক্ষার্থীরা তাদের পড়াশোনা খেলার মতো উপভোগ করতে পারে।</p>
+    
+    <h2 style="text-align:center; margin-bottom: 20px;">কী কী দরকার হবে?</h2>
+    <p>শিক্ষার্থীদের <strong>Smart Study Circle</strong> WhatsApp গ্রুপের সদস্য হতে হবে এবং একটি স্মার্টফোন, ইন্টারনেট সংযোগ এবং <strong>AI</strong>-এর ফ্রী অ্যাকসেস দরকার হবে।</p>
 
+    <p style="margin-bottom: 30px;"><strong>প্রকল্পের শুরুতে মাত্র ১০০ জন ছাত্রছাত্রীকে বিনামূল্যে নেওয়া হবে। প্রথমে যোগ দিতে ইচ্ছুকদের WhatsApp-এ যোগাযোগ করতে অনুরোধ করা হচ্ছে।</strong></p>
+
+    <p style="margin-bottom: 60px; text-align: center;"><a href="https://wa.me/918927242075" class="button">WhatsApp-এ যোগাযোগ করুন</a></p>
+
+    <p style="text-align: center;"><span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/earnings-disclaimer.html">Disclaimer</a></span> <span style="color: #000000;">|</span> <span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/terms-of-use.html">Terms of Use</a></span> <span style="color: #000000;">|</span> <a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/privacy-policy.html">Privacy</a></span></p>
+
+    <p style="text-align: center; margin-top: -20px;"><span style="font-size: 12pt; font-family: lora, serif; color: #000000;">Copyright © <script>document.write(new Date().getFullYear())</script>. EffortlessStudy.com.</span></p>
+</div>
+
+    <!-- Back to Top button -->
+    <button onclick="scrollToTop()" id="back-to-top" title="Go to top">Top</button>
+
+    <!-- JavaScript for the Back to Top functionality -->
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Show/hide the "Back to Top" button based on scroll position
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById('back-to-top').style.display = 'block';
+            } else {
+                document.getElementById('back-to-top').style.display = 'none';
+            }
+        };
+    </script>
 </body>
 </html>
