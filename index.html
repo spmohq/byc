@@ -3,27 +3,19 @@
 <head>
     <title>Smart Study Framework</title>
     <link rel="icon" href="https://effortlessstudy.com/spm.ico">
-    
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" language="javascript"> $(function () { $(this).bind("contextmenu", function (e) { e.preventDefault(); }); }); </script>
-    <script>
-        document.onkeydown = function(e) {
-            if (e.ctrlKey && (e.keyCode === 85 )) {
-                return false;
-            }
-        };
-    </script>
+
+    <!-- Google Font: Noto Sans Bengali -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
 
     <style type="text/css">
     body {
         background-color: #f0f0f2;
         margin: 0;
         padding: 0;
-        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: 'Noto Sans Bengali', sans-serif;
     }
     div {
         width: 600px;
@@ -59,6 +51,8 @@
     #back-to-top:hover {
         background-color: #555;
     }
+
+
     @media (max-width: 700px) {
         div {
             margin: 30px 20px 0;
@@ -66,64 +60,131 @@
         }
     }
     </style>
-
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '354458495335117');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=354458495335117&ev=PageView&noscript=1"
-    /></noscript>
 </head>
+<body>
+    <div>
 
-<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-<div>
-    <h1 style="text-align:center; margin-bottom: 30px;">Smart Study Framework</h1>
-    <p style="margin-bottom: 10px;">আমরা একটি পদ্ধতি তৈরি করেছি, যার নাম হলো <strong>Smart Study Framework</strong>!</p>
-    <p>এর প্রধান লক্ষ্য দুটো:</p>
-    <ul>
-        <li>"পড়াটা আমি বুঝতে পারছি না - পড়তে আমার ভাল্লাগছে না" - ছাত্রছাত্রীদের এই বিরক্তিকে "আমি পারছি - পড়তে আমার খুব আনন্দ হচ্ছে!"-তে বদলে দেওয়া।</li>
-        <li>পড়াশোনাকে ছাত্রছাত্রীদের কাছে খেলার মতো সহজ ও আনন্দদায়ক করে তোলা। আর সেটা তারা নিজে নিজেই করবে, টিউটর বা অন্য কারও সাহায্য ছাড়াই, এবং কীভাবে পড়াশোনা উপভোগ করতে পারে তা শিখিয়ে দেওয়া।</li>
-    </ul>
+        <h1 style="color: #d9534f;">পড়াগুলো আমি বুঝতে পারি না - পড়তে তাই আমার ভাল্লাগে না" - ছাত্রছাত্রীদের এই বিরক্তিকে "আমি পারছি - পড়াশোনায় মজে থাকতে আমার খুব আনন্দ হচ্ছে!"-তে বদলে দেওয়া যায় কি?</h1>
+        <h2 style="color: #1b74e4;">পড়াশোনাকে যে ছাত্র বা ছাত্রী ভয় পায় পড়াশোনাকে তার কাছে খেলার মতো সহজ ও আনন্দদায়ক করে তোলা যায় কি? </h2>
+        <p>হ্যাঁ! এগুলো করা যায়।</p>
+        <p>ছাত্রছাত্রীরা নিজে নিজেই সেটা করতে পারে টিউটর বা অন্য কারও সাহায্য ছাড়াই…</p>
+        <p>আমাদের Smart Study Blueprint ছাত্রছাত্রীদের কি শিখিয়ে দেয় কিভাবে টিউশন বা অপর কারো সাহায্য ছাড়াই কিভাবে আনন্দের সঙ্গে পড়াশোনা করা যায়।</p>
+        <h2>আমরা কি করি?</h2><p>পড়াশোনাটা ছাত্রছাত্রীদের কাছে খেলাধুলো করার মতো সহজ ও আনন্দদায়ক হবে আর ছাত্রছাত্রীদেরা তাদের পড়াশোনাটা আপন মনের আনন্দের তাগিদে নিজে নিজেই টিউটর বা অন্য কারও সাহায্য ছাড়াই করবে - এটাই আমাদের লক্ষ্য।</p>
+        <p>আর কীভাবে তারা সেটা করতে পারে তার টেকনিকটা তাদের দেখিয়ে ও শিখিয়ে দেওয়াই আমাদের কাজ।</p>
+        <p>সত্যি সত্যিই কি সেটা সম্ভব? হ্যাঁ সম্ভব! কেউ যখন কোনও জিনিস নিজে নিজেই খুব সুন্দর করে করতে পারে আর তারজন্যে লোকের কাছে থেকে প্রশংসা পায় - সেটা করার আগ্রহ তার বেড়ে যায়।</p>
+        <p>সেটা তখন সে আরো ভালো করে করতে চায়। আরো ভালো করে কিছু করা ও আরো আরো প্রশংসা ও পুরস্কার (বা অ্যাওয়ার্ড) পাওয়ার অদম্য একটা ইচ্ছা তার মনে তখন জেগে ওঠে।</p>
+        <p>আরো আরো পেরে আরো আরো আনন্দ পাওয়ার মধ্যে সে মশগুল হয়ে পড়ে। পড়াশোনাতে পারার আনন্দের স্বাদ একবার ঢুকে গেলে পড়াশোনা তখন আনন্দময় হয়ে ওঠে।</p>
+        <p>কারো কিছু না-পারার বা ব্যর্থতার কারন হ'ল - তার নলেজ গ্যাপ। নলেজ গ্যাপ থেকেই তৈরি হয় স্কিল গ্যাপ।</p>
+        <p>কেউ যদি একবার তার নলেজ-গ্যাপটাকে সনাক্ত করে নিতে সক্ষম হয় ও সেই নলেজ গ্যাপটাকে পূরণ করার রাস্তাটা পেয়ে যায় তারপর কে আর তাকে আটকায়?</p>
+        <p>আমাদের লক্ষ্য হ'ল - ছাত্রছাত্রীদেরকে নিজের নিজের নলেজ-গ্যাপটাকে নিজে নিজেই সনাক্ত করতে শেখানো ও সেই নলেজ গ্যাপটাকে পূরণ করার পথটা খুঁজে বের করার কৌশলটা শেখানো।</p>
+        <h3>Effortless Study Blueprint কীভাবে কাজ করে?</h3>
+        <p>আমরা আমাদের Smart Study Circle WhatsApp গ্রুপের মাধ্যমে ছাত্রছাত্রীদেরকে Effortless Study Blueprint পদ্ধতিটা শেখাই।</p>
+        <p>Effortless Study Blueprint পদ্ধতিতে আমরা  ছাত্রছাত্রীদেরকে দেখাই ও রপ্ত করাই কিভাবে FREE AI-র সাহায্যে তাদের "বুঝতে না পারার" বিরক্তিকে "আমি পারলাম ও পারি!"-র আনন্দতে বদলে নিতে হয়।</p>
+        <p>যাতে এই টেকনিক ব্যবহার করে শিক্ষার্থীরা তাদের পড়াশোনাকে খেলার মতো উপভোগ করতে পারে।</p>
+        <h3>Effortless Study Blueprint ব্যবহারের জন্য কী কী দরকার হবে?</h3>
+        <p>শিক্ষার্থীদের Smart Study Circle WhatsApp গ্রুপের সদস্য হতে হবে এবং একটি স্মার্টফোন ইন্টারনেট সংযোগ এবং AI-এর ফ্রী অ্যাকসেস দরকার হবে।</p>
 
-    <h2 style="text-align:center; margin-bottom: 20px;">আমরা কি করি?</h2>
-
-<p>পড়াশোনাকে নিজের কাছে খেলার মতো সহজ ও আনন্দদায়ক করে ছাত্রছাত্রীদেরা নিজে নিজেই করবে, টিউটর বা অন্য কারও সাহায্য ছাড়াই।</p>
-
-<p>আর কীভাবে তারা সেটা করতে পারে তার টেকনিকটা তাদের দেখিয়ে ও শিখিয়ে দেওয়াই আমাদের কাজ।</p>
-
-<p>কেউ যখন কোনও জিনিস নিজে নিজেই খুব সুন্দর করে করতে পারে আর করতে পেরে লোকের কাছে থেকে প্রশংসা পায় - সেটা করার আগ্রহ তার বেড়ে যায়। সেটা সে আরো ভালো করে করতে চায়। আরো ভালো করে কিছু করা ও আরো আরো প্রশংসা ও পুরস্কার (বা অ্যাওয়ার্ড) পাওয়াতে যে নেশা একবার জেগে ওঠে সেটা করার জন্যে।</p>
-
-<p>কারো কিছু না-পারার বা ব্যর্থতার কারন হ'ল - তার নলেজ গ্যাপ। নলেজ গ্যাপ থেকেই তৈরি হয় স্কিল গ্যাপ। </p>
-
-<p>কেউ যদি একবার তার নলেজ-গ্যাপটাকে সনাক্ত করে নিতে সক্ষম হয় ও সেই নলেজ গ্যাপটাকে পূরণ করার রাস্তাটা পেয়ে যায়, তারপর কে আর তাকে আটকায়।</p>
-
-<p>আমাদের লক্ষ্য হ'ল - ছাত্রছাত্রীদেরকে নিজে নিজেই তাদের নলেজ-গ্যাপটাকে সনাক্ত করতে শেখানো ও সেই নলেজ গ্যাপটাকে পূরণ করার রাস্তাটা বের করার কৌশলটা শেখানো। </p>
-
-    
-    <h2 style="text-align:center; margin-bottom: 20px;">কীভাবে কাজ করে?</h2>
-    <p>আমাদের <strong>Smart Study Circle</strong> WhatsApp গ্রুপের মাধ্যমে আমরা <strong>Effortless Study Blueprint</strong> শেখাই। এখানে <strong>AI</strong>-র সাহায্যে "বুঝতে না পারার" বিরক্তি "আমি পারলাম!"-এ বদলে যায়।</p>
-    <p>এই টেকনিক ব্যবহার করে শিক্ষার্থীরা তাদের পড়াশোনা খেলার মতো উপভোগ করতে পারে।</p>
-    
-    <h2 style="text-align:center; margin-bottom: 20px;">কী কী দরকার হবে?</h2>
-    <p>শিক্ষার্থীদের <strong>Smart Study Circle</strong> WhatsApp গ্রুপের সদস্য হতে হবে এবং একটি স্মার্টফোন, ইন্টারনেট সংযোগ এবং <strong>AI</strong>-এর ফ্রী অ্যাকসেস দরকার হবে।</p>
-
-    <p style="margin-bottom: 30px;"><strong>প্রকল্পের শুরুতে মাত্র ১০০ জন ছাত্রছাত্রীকে বিনামূল্যে নেওয়া হবে। প্রথমে যোগ দিতে ইচ্ছুকদের WhatsApp-এ যোগাযোগ করতে অনুরোধ করা হচ্ছে।</strong></p>
-
-    <p style="margin-bottom: 60px; text-align: center;"><a href="https://wa.me/918927242075" class="button">WhatsApp-এ যোগাযোগ করুন</a></p>
-
-    <p style="text-align: center;"><span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/earnings-disclaimer.html">Disclaimer</a></span> <span style="color: #000000;">|</span> <span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/terms-of-use.html">Terms of Use</a></span> <span style="color: #000000;">|</span> <a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/privacy-policy.html">Privacy</a></span></p>
-
-    <p style="text-align: center; margin-top: -20px;"><span style="font-size: 12pt; font-family: lora, serif; color: #000000;">Copyright © <script>document.write(new Date().getFullYear())</script>. EffortlessStudy.com.</span></p>
+<div style="background-color: #ffebcc; padding: 20px; border: 2px solid #f5a623; border-radius: 8px; text-align: center; margin-bottom: 20px; width: 500px; margin-left: auto; margin-right: auto;">
+    <h2 style="color: #d9534f; font-size: 24px;">বিশেষ অফার—সীমিত সময়ের জন্য</h2>
+    <p style="font-size: 18px; color: #333;">আমরা প্রথম ১০০ জন সদস্যের জন্য <strong>৫০% ছাড়</strong> দিচ্ছি যারা আমাদের WhatsApp গ্রুপে যোগ দেবেন। এই জায়গাগুলো শেষ হয়ে গেলে, মূল্য দ্বিগুণ হয়ে যাবে!</p>
+    <p style="font-size: 18px; color: #333;">সীমিত জায়গা রয়েছে, এই সুযোগটি বেশিদিন থাকবে না—আপনার সন্তানের শেখার দক্ষতা উন্নয়নের এবং তাদের নম্বর বাড়ানোর সুযোগ মিস করবেন না!</p>
+    <p style="font-size: 18px; color: #d9534f;"><strong>আর অপেক্ষা করবেন না</strong>—এই সীমিত সময়ের অফারটি কাজে লাগান এবং কয়েক সপ্তাহের মধ্যে আপনার সন্তানের পড়াশোনার ফলাফল দেখুন।</p>
 </div>
+
+        <!-- WhatsApp Button -->
+        <p style="margin-bottom: 60px; text-align: center;">
+            <a href="https://wa.me/918927242075" class="button">WhatsApp-এ যোগাযোগ করুন</a>
+        </p>
+
+        <h3>Effortless Study Blueprint কী?</h3>
+        <p>Effortless Study Blueprint একটি প্রমাণিত পদ্ধতি যা দুটি লক্ষ্যে পৌঁছায়:</p>
+        <ul>
+            <li>শেখাকে মজার ও আকর্ষণীয় করে তোলে: কঠিন বিষয়গুলিতে আর কান্না নয়! আমরা জটিল বিষয়গুলোকে ভেঙে বুঝিয়ে দিই এবং ছাত্রদের কীভাবে সেগুলি সহজভাবে শিখতে হয় তা শেখাই যাতে তারা মজা পায় এবং অনুপ্রাণিত হয়।</li>
+            <li>স্বতন্ত্রভাবে পড়ার দক্ষতা গড়ে তোলে: আমরা ছাত্রদের এমন দক্ষতা দিই যাতে তারা নিজেরাই সফলভাবে পড়তে পারে ফলে তাদের জীবনের জন্য এমন এক ক্ষমতা অর্জন হয় যার জন্য টিউটর বা ব্যয়বহুল সাহায্যের প্রয়োজন হয় না।</li>
+        </ul>
+        <h3>এটি কীভাবে কাজ করে:</h3>
+        <p>যখন আপনি আমাদের বিশেষ WhatsApp গ্রুপে যোগ দেন আপনার সন্তান পাবেন:</p>
+        <ul>
+            <li>দৈনিক পড়াশোনার টিপস ও হ্যাকস: প্রমাণিত পদ্ধতিগুলি যাতে ছাত্ররা দ্রুত ও আরও ভালোভাবে তথ্য মনে রাখতে পারে।</li>
+            <li>ব্যক্তিগত সমাধান: আপনার সন্তানের যে সমস্যাগুলো আছে তা শেয়ার করুন আমরা গবেষণার মাধ্যমে তৈরি ব্যক্তিগত সমাধান দেব যাতে তারা পড়ার বাধাগুলি কাটিয়ে উঠতে পারে।</li>
+            <li>নতুন পড়ার কৌশল: আমাদের চলমান গবেষণা থেকে সর্বাধুনিক পড়াশোনার পদ্ধতিগুলি নিয়মিতভাবে পাবেন।</li>
+            <li>পিতামাতার জন্য ২৪/৭ সহায়তা: আপনার সন্তানের পড়াশোনার সময় তাদের কীভাবে সমর্থন করবেন সে বিষয়ে গাইডেন্স পাবেন কীভাবে তাদের অনুপ্রাণিত করবেন থেকে শুরু করে কীভাবে তাদের সঠিক পথে রাখবেন।</li>
+        </ul>
+        <h3>ফলাফল কল্পনা করুন:</h3>
+        <p>মাত্র ৩০ দিনের মধ্যে আমাদের পদ্ধতি প্রয়োগ করে আপনার সন্তান:</p>
+        <ul>
+            <li>তাদের আগে সমস্যা ছিল এমন বিষয়গুলোতে ২০% পর্যন্ত বেশি নম্বর পেতে পারে।</li>
+            <li>স্মার্ট ও ফোকাসড পড়াশোনা কৌশলের মাধ্যমে পড়ার সময় ৫০% কমিয়ে আনতে পারে।</li>
+            <li>কঠিন বিষয়গুলোকে ইতিবাচক মানসিকতায় গ্রহণ করার আত্মবিশ্বাস অর্জন করতে পারে।</li>
+            <li>দীর্ঘমেয়াদি দক্ষতা অর্জন করতে পারে যাতে তারা সারাজীবন স্বতন্ত্রভাবে পড়াশোনা করতে পারে।</li>
+        </ul>
+        <h3>আমরা যে সমস্যাগুলি সমাধান করি:</h3>
+        <ul>
+            <li>হোমওয়ার্ক নিয়ে হতাশ? আমরা আপনার সন্তানকে এমন সরঞ্জাম দিই যাতে তারা সেই হতাশা কাটিয়ে উঠতে পারে এবং সত্যিই শেখার মজাটা পায়।</li>
+            <li>টিউটরের জন্য অনেক টাকা খরচ করছেন? আমাদের পদ্ধতি ছাত্রদের স্বতন্ত্রভাবে পড়াশোনা করতে শেখায় ফলে টিউটরের ওপর নির্ভরতা প্রয়োজন হবে না।</li>
+            <li>সব চেষ্টা সত্ত্বেও নম্বর কমছে? আমাদের গবেষণাভিত্তিক কৌশলগুলি ছাত্রদের পারফরম্যান্সে বাস্তব উন্নতি করতে সহায়তা করে।</li>
+        </ul>
+        <h3>কে উপকৃত হবে?</h3>
+        <ul>
+            <li>পিতামাতা যারা ব্যয়বহুল টিউটরের উপর নির্ভরতা কমাতে চান।</li>
+            <li>Standard V থেকে Post-Graduate পর্যায়ের ছাত্রছাত্রী যেকোনো শাখায়—মেডিক্যাল, ইঞ্জিনিয়ারিং, বিজ্ঞান, বাণিজ্য ও কলা।</li>
+            <li>প্রতিযোগিতামূলক পরীক্ষার প্রার্থী ও গবেষক যারা ফোকাসড এবং কার্যকর পড়ার কৌশল প্রয়োজন।</li>
+        </ul>
+        <h3>কেন Effortless Study Blueprint বেছে নেবেন?</h3>
+        <p>প্রথাগত টিউটরের মতো নয় আমাদের পদ্ধতি ছাত্রদের স্বতন্ত্রভাবে শেখার ক্ষমতা বাড়াতে ফোকাস করে। আপনার সন্তান তাদের নিজস্ব ক্ষমতায় কঠিন বিষয়গুলো মোকাবিলা করতে শিখবে এবং তাদের অগ্রগতি দেখে উত্তেজিত হবে।</p>
+        <p>আমাদের WhatsApp গ্রুপ একটি ব্যক্তিগত অ্যাক্সেসযোগ্য শেখার অভিজ্ঞতা প্রদান করে যা আপনার সন্তান যেকোনো সময় যেকোনো জায়গা থেকে ব্যবহার করতে পারে। আর ব্যয়বহুল ওয়ান-অন-ওয়ান সেশন নয়—শুধু সহজ কার্যকর পড়াশোনার টিপস এবং নির্দেশিকা যা আপনার সন্তানের দৈনন্দিন রুটিনে মানিয়ে যাবে।</p>
+        <p>যখন আপনি যোগ দেবেন আপনি পাবেন:</p>
+        <ul>
+            <li>Effortless Study Blueprint এর লাইফটাইম অ্যাক্সেস প্রতিদিন আপডেট ও ব্যক্তিগত সহায়তা সহ।</li>
+            <li>আমাদের WhatsApp গ্রুপে এক্সক্লুসিভ সদস্যপদ যেখানে আপনি নিয়মিতভাবে কাস্টমাইজড টিপস, ব্যক্তিগত সমাধান ও নতুন পদ্ধতিগুলি পাবেন।</li>
+            <li>বিশেষজ্ঞদের সরাসরি অ্যাক্সেস যারা আপনার সন্তানের অনন্য সমস্যাগুলি সমাধান করতে প্রস্তুত।</li>
+            <li>দৈনিক পিতামাতা সহায়তা যাতে আপনি আপনার সন্তানের পড়াশোনায় তাদের সঠিকভাবে গাইড করতে পারেন বাড়তি চাপ ছাড়াই।</li>
+        </ul>
+        <p>আজই Effortless Study Blueprint এ যোগ দিন এবং আপনার সন্তানের শেখার পদ্ধতি পরিবর্তন করুন।</p>
+
+<div style="background-color: #ffebcc; padding: 20px; border: 2px solid #f5a623; border-radius: 8px; text-align: center; margin-bottom: 20px; width: 500px; margin-left: auto; margin-right: auto;">
+    <h2 style="color: #d9534f; font-size: 24px;">বিশেষ অফার—সীমিত সময়ের জন্য</h2>
+    <p style="font-size: 18px; color: #333;">আমরা প্রথম ১০০ জন সদস্যের জন্য <strong>৫০% ছাড়</strong> দিচ্ছি যারা আমাদের WhatsApp গ্রুপে যোগ দেবেন। এই জায়গাগুলো শেষ হয়ে গেলে, মূল্য দ্বিগুণ হয়ে যাবে!</p>
+    <p style="font-size: 18px; color: #333;">সীমিত জায়গা রয়েছে, এই সুযোগটি বেশিদিন থাকবে না—আপনার সন্তানের শেখার দক্ষতা উন্নয়নের এবং তাদের নম্বর বাড়ানোর সুযোগ মিস করবেন না!</p>
+    <p style="font-size: 18px; color: #d9534f;"><strong>আর অপেক্ষা করবেন না</strong>—এই সীমিত সময়ের অফারটি কাজে লাগান এবং কয়েক সপ্তাহের মধ্যে আপনার সন্তানের পড়াশোনার ফলাফল দেখুন।</p>
+</div>
+
+        <!-- WhatsApp Button -->
+        <p style="margin-bottom: 60px; text-align: center;">
+            <a href="https://wa.me/918927242075" class="button">WhatsApp-এ যোগাযোগ করুন</a>
+        </p>
+
+        <h3>প্রশংসাপত্র:</h3>
+        <p>"আমি আমার ছেলের জন্য হাজার হাজার টাকা টিউটরের পিছনে খরচ করছিলাম কিন্তু WhatsApp গ্রুপে যোগ দেওয়ার পর সে নিজে থেকেই পড়াশোনা করতে শুরু করে—এবং তার নম্বর ৩০% বেড়েছে! এটি আমাদের জন্য একটি গেম-চেঞ্জার হয়েছে।" - এস. চ্যাটার্জী Standard IX এর ছাত্রের পিতামাতা</p>
+        <p>"আমি পদার্থবিদ্যায় সমস্যায় পড়ছিলাম কিন্তু HomeStudy.online এর পড়াশোনার টিপস অনুসরণ করার পর আমি আমার বোঝাপড়ায় বড় উন্নতি দেখি এবং শেষ পরীক্ষায় ৮৫% নম্বর পাই।" - আর. পাল বিজ্ঞান ছাত্র</p>
+        <h3>প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী:</h3>
+        <p><strong>WhatsApp গ্রুপ কীভাবে কাজ করে?</strong> আপনি সাবস্ক্রাইব করার পর আপনাকে আমাদের গ্রুপে যোগ করা হবে যেখানে আমরা দৈনিক পড়াশোনার টিপস শেয়ার করি, ব্যক্তিগত সমাধান দিই এবং যেকোনো পড়াশোনা সংক্রান্ত প্রশ্নের উত্তর দিই।</p>
+        <p><strong>এটি কি শুধু কিছু শ্রেণী বা বিষয়ের জন্য?</strong> না! Effortless Study Blueprint Standard V থেকে Post-Graduate পর্যায়ের সব ছাত্রদের জন্য কাজ করে—এবং সমস্ত বিষয়ের জন্য: মেডিক্যাল, ইঞ্জিনিয়ারিং, বিজ্ঞান, বাণিজ্য এবং আরও অনেক কিছু।</p>
+        <p><strong>যদি আমার সন্তান ফলাফল না পায়?</strong> আমাদের পদ্ধতি প্রমাণিত কৌশলের উপর ভিত্তি করে এবং ব্যক্তিগত সমাধান প্রদান করে। যদি আপনার সন্তান আমাদের পদ্ধতি প্রয়োগ করে উন্নতি না দেখে আমরা আপনাকে ঘনিষ্ঠভাবে সহায়তা করব যাতে তারা প্রয়োজনীয় সমর্থন পায়।</p>
+
+<div style="background-color: #ffebcc; padding: 20px; border: 2px solid #f5a623; border-radius: 8px; text-align: center; margin-bottom: 20px; width: 500px; margin-left: auto; margin-right: auto;">
+    <h2 style="color: #d9534f; font-size: 24px;">বিশেষ অফার—সীমিত সময়ের জন্য</h2>
+    <p style="font-size: 18px; color: #333;">আমরা প্রথম ১০০ জন সদস্যের জন্য <strong>৫০% ছাড়</strong> দিচ্ছি যারা আমাদের WhatsApp গ্রুপে যোগ দেবেন। এই জায়গাগুলো শেষ হয়ে গেলে, মূল্য দ্বিগুণ হয়ে যাবে!</p>
+    <p style="font-size: 18px; color: #333;">সীমিত জায়গা রয়েছে, এই সুযোগটি বেশিদিন থাকবে না—আপনার সন্তানের শেখার দক্ষতা উন্নয়নের এবং তাদের নম্বর বাড়ানোর সুযোগ মিস করবেন না!</p>
+    <p style="font-size: 18px; color: #d9534f;"><strong>আর অপেক্ষা করবেন না</strong>—এই সীমিত সময়ের অফারটি কাজে লাগান এবং কয়েক সপ্তাহের মধ্যে আপনার সন্তানের পড়াশোনার ফলাফল দেখুন।</p>
+</div>
+
+
+        <!-- WhatsApp Button -->
+        <p style="margin-bottom: 60px; text-align: center;">
+            <a href="https://wa.me/918927242075" class="button">WhatsApp-এ যোগাযোগ করুন</a>
+        </p>
+
+<p>গ্রুপে দেখা হবে!</p>
+            <p><img src="name.jpg" alt="Signature Image" style="width:100px;height:100px;"><br><br>
+            <strong>শিব প্রসাদ মুখার্জি</strong><br>Founder, EffortlessStudy.com</p>
+
+
+
+        <p style="text-align: center; margin-top: 150px;"><span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/earnings-disclaimer.html">Disclaimer</a></span> <span style="color: #000000;">|</span> <span style="color: #000000;"><a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/terms-of-use.html">Terms of Use</a></span> <span style="color: #000000;">|</span> <a style="text-decoration: none; color: #000000;" href="https://effortlessstudy.com/privacy-policy.html">Privacy</a></span></p>
+
+        <p style="text-align: center; margin-top: -20px;"><span style="font-size: 12pt; font-family: lora, serif; color: #000000;">Copyright © <script>document.write(new Date().getFullYear())</script>. EffortlessStudy.com.</span></p>
+    </div>
 
     <!-- Back to Top button -->
     <button onclick="scrollToTop()" id="back-to-top" title="Go to top">Top</button>
